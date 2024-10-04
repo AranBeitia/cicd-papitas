@@ -1,5 +1,8 @@
 name: learn-github-actions
-on: [push]
+on:
+  push:
+    branches:
+      - test-cicd
 jobs:
   check-tests:
     runs-on: ubuntu-latest
